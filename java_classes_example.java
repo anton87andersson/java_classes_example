@@ -47,13 +47,13 @@ class Circle extends Shape{
 class java_classes_example{
 	
 	public static void main(String[] args) {
-		Circle c = new Circle(9);
+	Shape c = new Circle(9);
         System.out.println("Circle area: " + c.area());
         System.out.println("Circle perimeter: " + c.perimeter());
         
         System.out.println("");
         
-        Rectangle r = new Rectangle(10, 5);
+        Shape r = new Rectangle(10, 5);
         System.out.println("Rectangle area: " + r.area());
         System.out.println("Rectangle perimeter " + r.perimeter());
 	}
